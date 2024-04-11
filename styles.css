@@ -1,0 +1,331 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: plus jakarta sans;
+
+ }
+
+ #cart-badge {
+     background-color: #2EBB77;
+     color: white;
+     font-size: 12px;
+     border-radius: 9px;
+     position: relative;
+     top: -13px;
+     left: -19px;
+     text-align: center;
+     width: 18px;
+     height: 18px;
+ }
+
+
+ .page-title {
+     font-size: 40px;
+     font-weight: 700;
+ }
+
+ .page-directory {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+ }
+
+ .root-page {
+     font-size: 15px;
+     font-weight: 500;
+     color: #7E7E7E;
+ }
+
+ .page-name {
+     font-size: 15px;
+     font-weight: 500;
+     color: black;
+ }
+ 
+ article {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     justify-content: center;
+ }
+
+
+ .enlarged-image {
+     grid-row-start: 1;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     height: 660;
+ }
+ 
+
+ .grid-items {
+     display: grid;
+     justify-content: center;
+ }
+
+
+ .grid-items div img {
+     border-radius: 20px;
+ }
+
+ .embedded-button:hover {
+     background-color: #04AA6D;
+     color: white;
+ }
+
+
+
+ .add-to-cart-btn {
+     padding: 10px;
+     background-color: rgb(132, 226, 132);
+     color: green;
+     border-radius: 5px;
+     border-color: transparent;
+ }
+
+
+ .add-to-cart-btn:hover {
+     background-color: white;
+     color: green;
+     border-color: green;
+ }
+
+ 
+
+ .subscription-card>* {
+     padding-bottom: 20px;
+ }
+
+
+ .footer-contents>* {
+     padding-bottom: 10px;
+ }
+
+ .footer-icons a img {
+     height: 20px;
+     margin-right: 10px;
+     margin-top: 5px;
+ }
+
+ .main-page>* {
+     margin-bottom: 20px;
+     width: 50%;
+
+ }
+
+ .main-page {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 100px;
+     margin-top: 50px;
+ }
+
+ .main-page>img {
+     border-radius: 5px;
+     box-shadow: 10px 10px 30px rgb(0 0 0 / 0.2);
+ }
+
+ .purchasing-steps {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .browse-button {
+     background-color: black;
+     padding: 10px;
+     border-radius: 5px;
+     border-color: transparent;
+     color: white;
+ }
+
+
+ .purchasing-steps>h3 {
+     color: rgba(0, 128, 0, 0.719);
+     padding: 5px;
+     background-color: rgb(185, 250, 185);
+     border-radius: 5px;
+ }
+
+
+ .search-icon {
+     float: right;
+     width: 15%;
+     position: absolute;
+     top: 5%;
+     left: -25px;
+ }
+
+
+
+ .categories-list>li {
+     padding: 5px
+ }
+
+ .shop-container {
+     display: flex;
+     align-items: center;
+     padding: 10px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .overlay-text>* {
+     margin-bottom: 10px;
+ }
+
+ .sort-dropdown {
+     padding: 5px;
+     border-radius: 5px;
+ }
+
+ #hamburger-icon {
+     width: 20px;
+ }
+
+
+ .home-page-shopping {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+
+ .sort-container {
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     gap: 10px;
+ }
+
+ .results-message {
+     font-size: 15px;
+ }
+
+
+ .shop-cards {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+
+ .payment-icon {
+     width: 50%;
+ }
+
+ .favourites-cart-container {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+ 
+ .step-cards {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     flex-wrap: wrap;
+ }
+
+ .package-deleivery-input {
+     width: 96%;
+     padding: 5px;
+     border-color: transparent;
+
+ }
+
+ .materials-container {
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ .copyrights-container {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .footer-payments-container {
+     display: flex;
+     justify-content: space-between;
+     margin: 20px;
+ }
+
+ .footer-mail-box {
+     padding: 10px;
+     width: 90%;
+     margin-bottom: 10px;
+     border-radius: 5px;
+ }
+
+ @media screen and (max-width:2200px) {
+
+     .home-page-banner {
+         width: 50%;
+     }
+ 
+     .home-page-flex {
+         justify-content: center;
+         margin: 0;
+     }
+
+      
+
+     .overlay-text {
+         font-size: 10px;
+         left: 50%;
+     }
+
+     .client-icon {
+         left: 1%;
+     }
+
+     .procedure-image {
+         width: 50%;
+         flex-wrap: wrap;
+     }
+
+     .payment-icon {
+         width: 50%;
+         height: 50%;
+     }
+
+      
+
+ }
+
+
+ @media screen and (max-width:900px) {
+
+     .overlay-text {
+         font-size: 5px;
+         width: 50%;
+         top: 40%;
+     }
+
+     .main-page>h1 {
+         font-size: 20px;
+         padding: 1px;
+         width: 50%;
+     }
+
+
+     .main-page>p {
+         font-size: 10px;
+         padding: 1px;
+         width: 50%;
+     }
+
+     .main-page>img {
+         top: 40%;
+     }
+
+
+ }

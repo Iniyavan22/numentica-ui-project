@@ -1,0 +1,134 @@
+{ "products":[
+    {
+    "name": "Adult Quantity Tee",
+    "price": "$26.00 – $29.00",
+    "type": "T-shirts",
+    "image": "./Icons/product-card.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Fit Round-neck T-shirt",
+    "price": "$26.00 – $29.00",
+    "type": "T-shirts",
+    "image": "./Icons/product-card10.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Hooded Sweatshirt",
+    "price": "$26.00 – $29.00",
+    "type": "Designers",
+    "image": "./Icons/product-card11.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Lightweight Fashion Tee",
+    "price": "$26.00 – $29.00",
+    "type": "T-shirts",
+    "image": "./Icons/product-card9.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Kids Hoodie",
+    "price": "$26.00 – $29.00",
+    "type": "Hoodies",
+    "image": "./Icons/product-card8.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Adult Quantity Tee",
+    "price": "$26.00 – $29.00",
+    "type": "Designers",
+    "image": "./Icons/product-card7.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Midweight Cotton Tee",
+    "price": "$26.00 – $29.00",
+    "type": "T-shirts",
+    "image": "./Icons/product-card6.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Premium Pullover Hoodie",
+    "price": "$26.00 – $29.00",
+    "type": "Hoodies",
+    "image": "./Icons/product-card5.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Fine Jersey Tee",
+    "price": "$26.00 – $29.00",
+    "type": "Kids",
+    "image": "./Icons/product-card4.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "AOP Cut & Sew Tee",
+    "price": "$26.00 – $29.00",
+    "type": "T-shirts",
+    "image": "./Icons/product-card3.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Premium Crewneck Sweatshirt",
+    "price": "$26.00 – $29.00",
+    "type": "Long-sleeves",
+    "image": "./Icons/product-card2.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    },
+    {
+    "name": "Product price by Options",
+    "price": "$26.00 – $29.00",
+    "type": "T-shirts",
+    "image": "./Icons/product-card.jfif",
+    "check": "false",
+    "color": [
+            "black",
+            "white"
+        ]
+    }
+]}

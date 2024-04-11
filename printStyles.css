@@ -1,0 +1,171 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main-page img {
+  border-radius: 12px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.main-page .print-page-banner {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.main-page p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.main-page .print-banner-image {
+  position: absolute;
+  z-index: -1;
+  width: 10%;
+}
+.main-page .print-banner-image:nth-of-type(1) {
+  top: 10%;
+  left: 70%;
+}
+.main-page .print-banner-image:nth-of-type(2) {
+  top: 70%;
+  left: 70%;
+}
+.main-page .print-banner-image:nth-of-type(3) {
+  top: 50%;
+  left: 0%;
+}
+.main-page .print-banner-image:nth-of-type(4) {
+  top: 10%;
+  left: 20%;
+}
+.main-page .print-banner-image:nth-of-type(5) {
+  top: 50%;
+  left: 90%;
+}
+.main-page .print-banner-image:nth-of-type(6) {
+  top: 70%;
+  left: 20%;
+}
+
+.print-page-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.print-page-banner * {
+  width: 80%;
+  text-align: center;
+}
+
+.purchasing-steps {
+  margin-top: 10px;
+}
+.purchasing-steps h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.step-cards {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.step-cards img {
+  width: 30px;
+  margin-right: 10px;
+}
+.step-cards li {
+  list-style-type: none;
+}
+
+.materials-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.materials-container div {
+  margin-right: 20px;
+}
+.materials-container img {
+  width: 50px;
+}
+
+.package-deleivery-input {
+  width: 94%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+.purchase-item > * {
+  margin-bottom: 10px;
+}
+
+.clear-selection-btn {
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.add-to-cart-container {
+  display: flex;
+  align-items: center;
+}
+
+.increase-decrease-btn {
+  padding: 10px;
+  color: grey;
+  border-color: transparent;
+  background-color: white;
+}
+
+.quantity-purchased {
+  padding: 1%;
+  border-color: transparent;
+  width: 1%;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 15px;
+}
+
+.new-price {
+  color: green;
+}
+
+.print-add-to-cart-btn {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 12px;
+  padding: 5px;
+  font-size: 10px;
+  border-color: transparent;
+}
+
+.print-add-to-cart-btn:hover {
+  background-color: white;
+  color: green;
+  border-color: green;
+}
+
+.print-main-btn {
+  width: 30%;
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 12px;
+  padding: 5px;
+  font-size: 10px;
+  border-color: transparent;
+}/*# sourceMappingURL=printstyles.css.map */
